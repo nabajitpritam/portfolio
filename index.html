@@ -1,9 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My First Vercel Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nabajit Pritam | Portfolio</title>
+  <meta name="description" content="Portfolio of Nabajit Pritam, a data-driven builder creating thoughtful digital products and analytical experiences.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Hello Sani 🚀</h1>
+<body data-page="home">
+  <div class="noise"></div>
+  <div class="aurora aurora-one"></div>
+  <div class="aurora aurora-two"></div>
+
+  <header class="site-header">
+    <nav class="navbar">
+      <a class="brand magnetic" href="index.html" aria-label="Homepage">NP<span>.</span></a>
+      <button class="menu-toggle magnetic" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Portfolio</p>
+        <h1>Building a portfolio experience that makes people stop, stay, and remember.</h1>
+        <p class="hero-text">
+          I design polished digital experiences around data, ideas, and momentum. This space is built to feel cinematic, focused, and unmistakably professional from the first second.
+        </p>
+        <div class="hero-actions">
+          <a href="projects.html" class="button primary interactive">Explore Projects</a>
+          <a href="about.html" class="button secondary interactive">Read My Story</a>
+        </div>
+      </div>
+
+      <div class="hero-panel reveal delay-1">
+        <div class="glass-card signature-card interactive">
+          <div class="signature-top">
+            <p>Current focus</p>
+            <span class="status-pill">Available for impactful work</span>
+          </div>
+          <h2>Data thinker. Product-minded builder. Fast learner with a long-game mindset.</h2>
+          <div class="signal-grid">
+            <div>
+              <strong>50K+</strong>
+              <span>records analyzed</span>
+            </div>
+            <div>
+              <strong>3+</strong>
+              <span>core disciplines blended</span>
+            </div>
+            <div>
+              <strong>&infin;</strong>
+              <span>curiosity for what comes next</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-shell">
+      <div class="section-heading reveal">
+        <p class="eyebrow">What makes this portfolio stick</p>
+        <h2>Built like a first impression that keeps unfolding.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="glass-card feature-card reveal interactive">
+          <span class="feature-index">01</span>
+          <h3>Clean narrative flow</h3>
+          <p>Every page is structured to guide attention naturally, so visitors move from curiosity to confidence without friction.</p>
+        </article>
+        <article class="glass-card feature-card reveal delay-1 interactive">
+          <span class="feature-index">02</span>
+          <h3>Motion with purpose</h3>
+          <p>Reveals, click ripples, hover depth, and page-specific effects make the experience feel alive without feeling noisy.</p>
+        </article>
+        <article class="glass-card feature-card reveal delay-2 interactive">
+          <span class="feature-index">03</span>
+          <h3>Professional dark identity</h3>
+          <p>A layered dark theme, sharp typography, and glassmorphism accents create a premium look that still feels readable and grounded.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell">
+      <div class="timeline-band glass-card reveal interactive">
+        <div>
+          <p class="eyebrow">Snapshot</p>
+          <h2>Turning experiments into polished work.</h2>
+        </div>
+        <div class="timeline-points">
+          <div>
+            <span>Research</span>
+            <p>Asking better questions before building.</p>
+          </div>
+          <div>
+            <span>Execution</span>
+            <p>Combining analysis, design, and iteration.</p>
+          </div>
+          <div>
+            <span>Growth</span>
+            <p>Using each project to sharpen the next one.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
